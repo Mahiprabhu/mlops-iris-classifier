@@ -10,7 +10,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 # --- Load the Model from MLflow Model Registry ---.
-MODEL_NAME = "IrisClassifier"
+MODEL_NAME = "IrisClassifier1"
 STAGE = "Production" 
 
 try:
